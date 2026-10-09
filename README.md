@@ -1,87 +1,104 @@
-<div align="center">
+<p align="center">
+  <img src="preview.png" alt="Osorio Lab website" width="880"/>
+</p>
 
-<img src="preview.png" alt="Osorio Lab — Laboratory on Polymer Materials & Organ Printing" width="960"/>
+# Osorio Lab — Laboratory Website
 
-# Osorio Lab
+Production website for the **Laboratory on Polymer Materials & Organ Printing** (Prof. Dr. Anayancy Osorio-Madrazo, University of Bayreuth), live at [osorio-research.com](https://osorio-research.com).
 
-**Laboratory on Polymer Materials & Organ Printing** — University of Bayreuth
+Built with vanilla **TypeScript** compiled to plain JavaScript — no framework, no bundler at runtime, no server-side rendering. The whole editable surface (43 publications, 15 team members, 18 alumni, 20 research topics, 64 UI strings) is driven by a single `content.json` file, so non-technical staff can update the site without touching code.
 
-Research group site of **Prof. Dr. Anayancy Osorio-Madrazo**:
-bioinspired polymer materials, hydrogels, chitosan fibres and 3D-bioprinted tissues.
+[![TypeScript](https://img.shields.io/badge/lang-TypeScript-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![anime.js](https://img.shields.io/badge/motion-anime.js_3.2.1-FF4C65)](https://animejs.com)
+[![runtime](https://img.shields.io/badge/runtime-zero_build-%23000)](#-from-typescript-to-the-browser)
+[![dep](https://img.shields.io/badge/dependencies-1_(CDN)-blue)](#-built-with)
 
-[Live site](https://osorio-research.com) · [About Prof. Osorio](https://osorio-research.com/#about) · [Publications](https://osorio-research.com/#publications) · [Team](https://osorio-research.com/#team) · [Contact](https://osorio-research.com/#contact)
+## Built With
 
-</div>
+- **TypeScript** (strict mode) — sources in `assets/ts/`, compiled to the plain JS the browser loads
+- **Vanilla DOM** — rendering, templating and state are hand-rolled; no framework runtime
+- **anime.js 3.2.1** (CDN) — the only external runtime dependency
+- **CSS3** — single hand-written stylesheet, no preprocessor
+- **JSON** — `content.json` as the single content source, validated against TS interfaces at build time
 
----
+## Features
 
-## ✨ What's inside
+- **Content-driven rendering** — every section renders from `content.json` (fetched at runtime with `cache: "no-store"`), falling back to the `data.js` seed compiled from `data.ts` if the fetch fails
+- **Typed content contract** — `LabData`, `Publication`, `TeamMember`, `TeachingPeriod` interfaces in `data.ts` document the exact JSON shape; a typo in the content breaks `npm run build`, not production
+- **Runtime i18n overlay** — 64 UI string keys (`window.I18N`), overridable per-language from the same JSON via the `i18n` field
+- **Compiled-output parity** — the TS→JS translation was verified with a real-browser probe comparing the old JS and the new compiled JS on rendered DOM state and interactions (result: identical, zero page errors)
+- **SEO as code** — JSON-LD `@graph` generated at runtime for all 46 publications (`ScholarlyArticle` / `Chapter` / patent), plus static Organization / Person / WebSite entities, Open Graph, Twitter cards, `sitemap.xml`, `robots.txt` and `llms.txt` for AI search engines
+- **Accessibility** — `prefers-reduced-motion` short-circuits every animation, focus-trapped team modal with Escape/Tab handling, ARIA labels resolved through the i18n layer
+- **Image pipeline** — 19 WebP images with JPG fallbacks, lazy loading, on-error avatar fallback generated from member initials, `?r=` cache-busting retries
+- **XSS hardening** — all content interpolated through an HTML escaper; `safeUrl()` whitelists `http(s)`, `mailto:`, `tel:` and blocks `javascript:`/`data:` schemes
 
-A **single-page, zero-dependency** research-group site — **vanilla TypeScript → JavaScript**, hand-rolled CSS, one CDN script (`anime.js`) for motion. No framework, no runtime build, no npm on the server: edit `content.json`, upload, done.
-
-| | |
-|---|---|
-| ⚡ **Runtime stack** | `index.html` + `content.json` + compiled JS — ships to any static host |
-| 🎨 **Design system** | Soft-matter aesthetic: Space Grotesk · Inter · JetBrains Mono |
-| 🎬 **Motion** | anime.js v3 — split-text word reveals, scroll-scrubbed sections, staggered lists, signature `easeOutExpo` easings — all scroll-reversible |
-| 🧪 **TypeScript source** | `assets/ts/*.ts` typed against the content model, compiled with `npm run build` |
-| 🔍 **SEO** | JSON-LD (Organization · Person · WebSite · ScholarlyArticle), Open Graph, Twitter cards, `sitemap.xml`, `robots.txt`, `llms.txt` for AI search |
-| ♿ **Accessibility** | `prefers-reduced-motion` respected everywhere, focus-trapped modal, keyboard nav |
-| 🖼️ **Media** | Optimized WebP/JPG pipeline, lazy loading, error-fallback avatars |
-
-## 🎯 Why this stack
-
-This is a **client site** where the owner edits content on the fly without touching code, and a fast, professional page matters more than a framework ecosystem. The whole editable surface — team, publications, topics, teaching, media, contact, UI strings — lives in **one JSON file** the owner can edit via their panel. The frontend just renders it. TypeScript gives compile-time confidence on that contract without shipping a single runtime dependency.
-
-## 🏗️ Architecture
+## Project Structure
 
 ```text
-index.html ─────────────── single page (all 8 sections)
-content.json ────────────── editable content (owner edits this, loaded at runtime)
+index.html              single page — loads 3 scripts, zero inline logic
+content.json            editable content (what the site owner maintains)
 assets/
-├── ts/                   SOURCE (TypeScript)
-│   ├── data.ts           content seed + typed content model
-│   ├── main.ts           render logic, i18n, animations, modal, SEO
-│   ├── early.ts          JS-availability guard
-│   └── globals.d.ts      ambient anime.js typings
-├── js/                   COMPILED OUTPUT (what the browser loads)
-│   ├── data.js           ← compiled from data.ts
-│   └── main.js           ← compiled from main.ts
-├── css/styles.css        design system: palette, type, motion
-└── img/                  optimized WebP/JPG photos
+├── ts/                 TypeScript sources
+│   ├── data.ts         content seed + typed content model
+│   ├── main.ts         rendering, i18n, animations, modal, SEO
+│   ├── early.ts        JS-availability guard (prevents FOUC)
+│   └── globals.d.ts    ambient typings for the anime.js CDN
+├── js/                 compiled output (what the browser loads)
+│   ├── data.js         ← data.ts
+│   ├── main.js         ← main.ts
+│   └── early.js        ← early.ts
+├── css/styles.css      single stylesheet
+└── img/                optimized WebP + JPG fallbacks
 ```
 
-## 🧪 From TypeScript to the browser
+## Data Model
 
-The site loads plain `.js` — zero build on the server. Development flow:
+`content.json` mirrors the `LabData` interface — the full contract the owner edits:
 
-```bash
-npm install        # once — pulls TypeScript
-npm run build      # tsc compiles assets/ts/*.ts → assets/js/*.js
-npm run watch      # same, recompiling on save
+```ts
+publications: { articles: Publication[];   // 43 peer-reviewed
+                chapters:  Publication[];  // 2 book chapters
+                patents:  Publication[] }  // 1 PCT/EP/US
+team: TeamMember[]                        // 15 members (photo, bio, socials)
+alumni: string[]                          // 18 former members
+topics: string[]                          // 20 research keywords
+teaching: TeachingPeriod[]                // grouped by degree program
+media: MediaItem[]                        // press, interviews, TV
+i18n?: Record<string, string>             // overrides for the 64 UI keys
 ```
 
-The compiled output preserves the exact runtime behaviour of the original JavaScript (verified by an old-vs-new browser probe: rendered DOM state and interactions identical between both). The `?v=` query strings in `index.html` are cache busters — bump them when you ship new JS.
+Optional fields degrade gracefully: a team member without `img` renders an initials avatar, without `bio` the modal hides the paragraph, a publication without `url` drops the DOI link.
 
-## 🔧 Run locally
+## Getting Started
+
+**Prerequisites:** Node.js 18+ (build only — the site itself needs no Node), any static file server to preview.
 
 ```bash
-python -m http.server 3000   # or any static server
+git clone https://github.com/RedBagDude/osorio-lab.git
+cd osorio-lab
+npm install     # pulls the TypeScript compiler
+npm run build   # tsc: assets/ts/*.ts -> assets/js/*.js
+npm run watch   # or: recompile on save
+```
+
+**Preview locally** (any static server works — the deploy target is plain FTP):
+
+```bash
+python -m http.server 3000
 # open http://localhost:3000
 ```
 
-## 📐 Content model
+**Deploy:** upload everything except `node_modules/`, `assets/ts/` and `tsconfig.json`. When shipping new JS, bump the `?v=` cache-busters on the `<script>` tags in `index.html`.
 
-Everything editable lives in `content.json` — with `assets/ts/data.ts` as the built-in fallback seed. The TypeScript interfaces (`LabData`, `Publication`, `TeamMember`…) document the exact shape for every consumer, so a typo in the JSON is caught at the next `npm run build`, not in production.
+## Performance
 
-## 🎨 Design
+- **~89 KB of JavaScript total** (uncompressed) across 3 files — no framework, no polyfills
+- **1 CDN request** (anime.js) — everything else is same-origin
+- Scroll animations are seek-driven, not replay-driven: scrub timelines to viewport progress instead of firing on intersection, so scrolling up reverses them with no reflow
+- Ambient loops (blobs, rings, dots) are gated on `(max-width: 760px)` and `prefers-reduced-motion` to cap GPU cost on mobile
 
-Scientific **soft-matter** aesthetic, matched to the lab's presentation figure — silver `#f4f5f8`, indigo `#181433`, violet `#7c3aed`, orange `#f0562b`.
+## Acknowledgements
 
-Motifs drawn from the lab's own research: **molecular network** (polymer chains), **diffraction rings** (X-ray scattering), **scaffold grid** (tissue engineering), **hydrogel blobs** (soft matter).
-
-Motion follows the animejs.com signature — masked split-word reveals with per-word `easeOutExpo`, scroll-scrubbed progress that plays forward on scroll down and reverses on scroll up.
-
-## 📄 License & credits
-
-Site developed for the Osorio Lab by [Jonathan Martínez López](https://github.com/RedBagDude) ([RedBagDude](https://github.com/RedBagDude)). Content © Laboratory on Polymer Materials & Organ Printing, University of Bayreuth. Motion engine: [anime.js](https://animejs.com) v3.2.1 (CDN, MIT).
+- [anime.js](https://github.com/juliangarnier/anime) by Julian Garnier — motion engine
+- Content © Laboratory on Polymer Materials & Organ Printing, University of Bayreuth
+- Site developed for the Osorio Lab by [Jonathan Martínez López](https://github.com/RedBagDude)
