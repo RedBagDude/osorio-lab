@@ -1,0 +1,13 @@
+{
+  "name": "osorio-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Osorio Lab — Laboratory on Polymer Materials & Organ Printing (University of Bayreuth). Static single-page site: TypeScript sources compiled to plain JS.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}

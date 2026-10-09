@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "es2020",
+    "lib": ["ES2017", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "noEmitOnError": true,
+    "rootDir": "assets/ts",
+    "outDir": "assets/js",
+    "sourceMap": false,
+    "declaration": false
+  },
+  "include": ["assets/ts/**/*.ts", "assets/ts/**/*.d.ts"]
+}

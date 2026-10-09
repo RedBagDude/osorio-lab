@@ -1,9 +1,10 @@
+"use strict";
 /* ============================================================
    Osorio Lab — content data (bilingual DE/EN)
    Laboratory of Polymer Materials & Organ Printing
    University of Bayreuth
+   TypeScript source — compiled to assets/js/data.js (npm run build)
    ============================================================ */
-
 /* ---------- UI strings ---------- */
 window.I18N = {
     "nav.research": "Research",
@@ -71,7 +72,6 @@ window.I18N = {
     "pubs.moreLabel": "For a complete publications list go to:",
     "news.placeholder": "Thesis defences, awards, conferences and more — this section will be updated soon."
 };
-
 /* ---------- content ---------- */
 window.LAB = {
     "lab": {
