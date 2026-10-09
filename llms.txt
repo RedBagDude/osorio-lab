@@ -1,0 +1,37 @@
+# Osorio Lab — Laboratory on Polymer Materials & Organ Printing
+
+> Research group of Prof. Dr. Anayancy Osorio-Madrazo at the University of Bayreuth (Germany).
+> Functional polymer materials — from hydrogels and bioinspired fibres to bioprinted tissues.
+
+The laboratory develops functional polymer materials for technological and biomedical
+applications, combining polymer chemistry, materials science, physics, engineering and
+biomedicine. Core work includes 3D bioprinting / organ printing, hydrogels, (nano)composites,
+bioinspired fibres, tissue engineering and controlled drug release.
+
+## Facts
+
+- **Lead:** Prof. Dr. Anayancy Osorio-Madrazo (ORCID 0000-0003-1312-622X)
+- **Institution:** University of Bayreuth, Germany — Chair of Organ Printing
+- **Address:** Universitätsstr. 30, NW IV, 95447 Bayreuth, Germany
+- **Email:** anayancy.osorio-madrazo@uni-bayreuth.de
+- **Phone:** +49 921-55-7961
+- **Language:** English (site content)
+
+## Research areas
+
+Hydrogels, fiber spinning, (nano)composites, sustainable materials, biomineralization,
+bioinspired materials, biomimetics, synchrotron X-ray scattering (SAXS/WAXS, in situ),
+3D bioprinting and additive manufacturing, heterophase polymerization, polymer micro- and
+nanoparticles, controlled drug release, tissue engineering, 3D cell culture, biosensors,
+polysaccharide nanofibers, nanotechnology, size-exclusion chromatography (SEC/MALLS),
+rheology, micro- and nanomechanical testing.
+
+## Links
+
+- [Website](https://osorio-research.com/): lab home, publications, teaching, team, media
+- [Google Scholar](https://scholar.google.ca/citations?user=EJY_5nsAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0003-1312-622X)
+- [LinkedIn](https://www.linkedin.com/in/anayancy-osorio-madrazo-02078723/)
+- [X / Twitter](https://x.com/OsorioAnayancy)
+- [University of Bayreuth](https://www.uni-bayreuth.de/)
+- [Full content](https://osorio-research.com/llms-full.txt)

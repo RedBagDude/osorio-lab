@@ -1,0 +1,983 @@
+{
+  "lab": {
+    "name": "Laboratory on Polymer Materials & Organ Printing",
+    "shortName": "Osorio Lab",
+    "lead": "Anayancy Osorio-Madrazo",
+    "leadTitle": "Prof. Dr.",
+    "institution": "University of Bayreuth",
+    "tagline": "Functional polymer materials — from hydrogels and bioinspired fibres to bioprinted tissues.",
+    "heroFigure": "assets/img/presentation-figure.jpg"
+  },
+  "about": [
+    "Dr. Anayancy Osorio-Madrazo leads the Laboratory on Polymer Materials & Organ Printing at the University of Bayreuth.",
+    "Before joining Bayreuth, she built her independent research group at the University of Freiburg in 2016, for which she was awarded both an Emmy Noether Programme junior group grant of the German Research Foundation (DFG) and a Margarete von Wrangell Habilitation Programme grant from Ministry of Science, Research and Arts (MWK) Baden-Württemberg.",
+    "Her research bridges polymer chemistry, materials science, physics, engineering and biomedicine — with a focus on synthesis, processing and structure–function relationship in soft matter — covering fundamental and applied research."
+  ],
+  "aboutProfile": {
+    "name": "Anayancy Osorio Madrazo, PhD",
+    "role": "Head Laboratory of Additive Processes (Organ Printing)",
+    "academicCareer": [
+      {
+        "y": "Since 2024",
+        "t": "Head Laboratory of Organ Printing, Faculty Engineering Sciences, University Bayreuth, Germany"
+      },
+      {
+        "y": "2023",
+        "t": "Head Laboratory of Intelligent Polymer Materials, Faculty Chemistry & Earth Sciences, University Jena, Germany"
+      },
+      {
+        "y": "Since 2021",
+        "t": "Emmy Noether DFG Independent Junior Research Group Leader & Lecturer"
+      },
+      {
+        "y": "2021–2023",
+        "t": "Institute of Microsystems Engineering IMTEK/ FMF & FIT, Faculty of Engineering, University of Freiburg, Germany"
+      },
+      {
+        "y": "2017–20",
+        "t": "Margarete von Wrangell Independent Junior Research Group Leader & Lecturer. Institute of Microsystems Engineering IMTEK & FMF, Faculty of Engineering, University of Freiburg, Germany"
+      },
+      {
+        "y": "2014–16",
+        "t": "Independent Investigator. Max-Planck Institute of Colloids and Interfaces MPIKG, Department of Biomaterials, Potsdam, Germany"
+      },
+      {
+        "y": "2012–14",
+        "t": "Research Group Leader & Lecturer, Freiburg Materials Research Center FMF, Chair Forest Biomaterials, University of Freiburg, Germany"
+      },
+      {
+        "y": "2010–12",
+        "t": "Postdoctoral Scientist. Max-Planck Institute of Colloids & Interfaces MPIKG, Department of Biomaterials, Germany"
+      },
+      {
+        "y": "2005–10",
+        "t": "PhD in Polymer Materials and Composites, Institute Polymer Materials Engineering IMP UMR/CNRS 5223, University Claude Bernard of Lyon 1, France"
+      },
+      {
+        "y": "2001–04",
+        "t": "Associate Researcher, Biomaterials Center, University of Havana, Cuba"
+      },
+      {
+        "y": "2001–04",
+        "t": "Teaching Staff (Instructor), University Las Villas, Faculty Chemistry & Pharmacy, Cuba"
+      },
+      {
+        "y": "2001–03",
+        "t": "MSc. Materials Science. Institute Materials Science and Technology IMRE, University of Havana, Cuba"
+      },
+      {
+        "y": "1996–01",
+        "t": "Diploma/BSc. in Chemistry. University of Havana & University Las Villas, Cuba"
+      },
+      {
+        "y": "1993–96",
+        "t": "Abitur in Exact and Natural Sciences, Exact and Natural Sciences High Schools IPVCE Che Guevara (Santa Clara) and IPVCE Lenin (Havana), Cuba"
+      }
+    ],
+    "awards": [
+      {
+        "y": "2023",
+        "t": "Called W3 Full Professor of Organ Printing (Additive processed for tissue reconstruction), Faculty of Engineering, University of Bayreuth, Germany"
+      },
+      {
+        "y": "2022",
+        "t": "Called W3 Full Professor of Intelligent Polymer Materials and Interfaces, Faculty of Chemistry and Earth Sciences, University of Jena, Germany"
+      },
+      {
+        "y": "2020",
+        "t": "Emmy Noether Program of German Research Foundation DFG for Junior Research Groups (1.9 Mi. Eur, 6 years grant)"
+      },
+      {
+        "y": "2016",
+        "t": "Margarete von Wrangell Habilitation Program for Women, Ministry of Science, Research and the Arts MWK Baden-Württemberg (10 women selected, 5 years grant)"
+      },
+      {
+        "y": "2025",
+        "t": "Invited Professor, University of Milan, Department of Pharmaceuticals Sciences, Italy"
+      },
+      {
+        "y": "2019",
+        "t": "Invited Fellow, Harvard Medical School Harvard University, Cambridge, USA"
+      },
+      {
+        "y": "2023",
+        "t": "Elected Secretary General of European Chitin Chitosan Society EUCHIS www.euchis.org"
+      },
+      {
+        "y": "2017",
+        "t": "Selected participant of the 67th Meeting of Nobel Laureates: Chemistry, at Lake Constance, Lindau Foundation"
+      },
+      {
+        "y": "2014",
+        "t": "Max-Planck Society Postdoctoral Fellowship. Max-Planck Institute of Colloids and Interfaces, Max Planck Society"
+      },
+      {
+        "y": "2022",
+        "t": "Rectorate Research Commission, University of Freiburg (8 members, Rectorate nomination)"
+      },
+      {
+        "y": "2008",
+        "t": "Award of the Cuban Academy of Sciences to „Studies on Chitin and Chitosan“"
+      },
+      {
+        "y": "2005",
+        "t": "ALFA-II EU PhD Scholarship: Programm POLYLIFE Network “Biopolymers in Materials and Life Sciences”"
+      },
+      {
+        "y": "2006",
+        "t": "Poster Award of the European Chitin Society EUCHIS’2006; X International Conference on Chitin and Chitosan I.C.C.C."
+      },
+      {
+        "y": "2004",
+        "t": "Rector’s Award University of Havana to “The Best Scientific Result in the Direction of Fundamental Studies of Sciences and Humanities”"
+      },
+      {
+        "y": "2003",
+        "t": "Rector’s Award University of Havana to “The Best Result in the Direction of New Materials”"
+      },
+      {
+        "y": "2001",
+        "t": "Best Graduated Diplom Chemistry Class’2001, University of Las Villas, Santa Clara, Cuba"
+      },
+      {
+        "y": "1996",
+        "t": "Gold Medal of Chemistry National Olympiad for High-School Students/ International Chemistry Olympiad Selection’1996. Entrance Award to BSc. Chemistry studies."
+      }
+    ],
+    "memberships": [
+      "German Society of Biomaterials DGBM e.V.",
+      "European Society for Biomaterials ESB",
+      "German Society of Materials DGM e.V.",
+      "German Society of Biomedical Engineering DGBMT",
+      "Association for Electrical, Electronic & Information Technologies VDE e.V.",
+      "German Association of University Professors and Lecturers (DHV)",
+      "European Chitin Society EUCHIS",
+      "Ibero-American Chitin Society SIAQ"
+    ],
+    "languages": [
+      "Spanish (Native language)",
+      "German",
+      "French",
+      "English",
+      "Italian"
+    ],
+    "photo": "assets/img/anayancy-mvw.jpg"
+  },
+  "mission": [
+    "Our group strives to develop functional polymer materials for the most diverse applications, covering fundamental and applied research for technological and biomedical ends.",
+    "We focus on design, chemistry, processing, characterization and application of polymer-based materials. For example, we utilize 3D printing technologies for the fabrication of functional tissues and organs and investigate their hierarchical structure and functionalities in relation to material processing and polymer chemistry.",
+    "Inspired by nature, the group develops new micro/nano-structured biomaterials of different morphologies for tissue engineering — bridging the gap between polymer science for achieving controlled fine microstructures and materials functionality and their targeted application."
+  ],
+  "topics": [
+    "Hydrogels",
+    "Fiber spinning",
+    "(Nano)composites",
+    "Sustainable materials",
+    "Biomineralization",
+    "Bioinspired materials",
+    "Biomimetics",
+    "Synchrotron X-ray scattering (SAXS/WAXS, in situ)",
+    "3D bioprinting & additive manufacturing",
+    "Heterophase polymerization",
+    "Polymer micro- & nanoparticles",
+    "Controlled drug release",
+    "Tissue engineering",
+    "3D cell culture",
+    "Biosensors",
+    "Polysaccharide nanofibers",
+    "Nanotechnology",
+    "Size-exclusion chromatography (SEC/MALLS)",
+    "Rheology",
+    "Micro- & nanomechanical testing"
+  ],
+  "marquee": [
+    "Polymer Materials",
+    "Organ Printing",
+    "Hydrogels",
+    "3D Bioprinting",
+    "Tissue Engineering",
+    "Bioinspired Materials",
+    "Chitosan & Chitin",
+    "Biomaterials",
+    "Sustainable Materials",
+    "Biosensors"
+  ],
+  "publications": {
+    "articles": [
+      {
+        "y": 2026,
+        "authors": "I. Doench, T.A. Tran, L. David, C. Gorzelanny, A. Osorio-Madrazo*",
+        "title": "Cell-laden chitosan 3D bioprinting with the unmodified biopolymer of structural units glucosamine and N-acetylglucosamine to advance bioactive chitosan-based hydrogel tissue models",
+        "journal": "ChemRxiv 2026",
+        "ref": "",
+        "url": "https://doi.org/10.26434/chemrxiv.15005293/v1",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2026,
+        "authors": "Alexandra Großdorf, Sina Nabil, Carlotta Imelmann, Margareta J. Hellmann, Jurij Froese, Ehab El-Awaad, Tuan Anh Tran, Stefan Cord-Landwehr, Nick Rähse, Önder Kurc, Fuzhu Yang, Hung-Yu Chen, Evelyne Gout, Gabriela Rosca, Marion Kusche-Gullberg, Martina Delbianco, Jonathan Cramer, Holger Gohlke, Romain R. Vivès, Alexander N.R. Weber, Hans Merzendorfer, Anayancy Osorio-Madrazo, Kay Grobe, Bruno M. Moerschbacher, Christian Gorzelanny",
+        "title": "Chitinase-3-like protein 1 decodes chitosan acetylation patterns into toll-like receptor 2 signaling through heparan sulfate",
+        "journal": "BioRxiv 2026",
+        "ref": "",
+        "url": "https://doi.org/10.64898/2026.06.15.732264",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2026,
+        "authors": "Y. Lazo-Pérez, A. Morales-Moreno, D. M. González-Mosquera, A. Osorio-Madrazo, J. L. Rivera-Barreto, R. Abreu-Naranjo",
+        "title": "In vitro antifungal activity of the leaf extract of Tectona grandis L. f.",
+        "journal": "Agronomía Mesoamericana 2026",
+        "ref": "37, hndw1p94",
+        "url": "https://doi.org/10.15517/hndw1p94",
+        "oa": true,
+        "lang": "enes",
+        "arr": "articles"
+      },
+      {
+        "y": 2025,
+        "authors": "A. Kamdem Tamo, I. Doench, K. Roshanbinfar, A. Montembault, A. Serghei, F.B. Engel, A. Osorio-Madrazo*",
+        "title": "Electrically Conductive Bio-Based Hydrogels and Fibrous Materials Fabricated using 3D Printing and Electrospinning for Cardiac Tissue Engineering",
+        "journal": "Bioactive Materials 2025",
+        "ref": "51, 650–719",
+        "url": "https://doi.org/10.1016/j.bioactmat.2025.05.014",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2025,
+        "authors": "T.A. Tran, I. Doench, A. Kamdem Tamo, S. Jahangir, S. Marquez-Bravo, P. Molina, M. Helmstaedter, A. Morales Helguera, C. Gorzelanny, A. Osorio-Madrazo*",
+        "title": "Biopolymer Fibers of High Strength and Enhanced Orientation by the Synergy of High/Low Molecular Weight Chitosans in Hybrid Biomaterials Processed by Gel Spinning",
+        "journal": "Journal of Functional Biomaterials 2025",
+        "ref": "16, 405",
+        "url": "https://doi.org/10.3390/jfb16110405",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2025,
+        "authors": "A. Kamdem Tamo, I. Doench, G. Deffo, S.L. Zambou Jiokeng, G. Doungmo, C. Ghislain Fotsop, R.C. Tonleu Temgoua, A. Montembault, A. Serghei, E. Njanja, I. Kenfack Tonle, A. Osorio-Madrazo*",
+        "title": "Lignocellulosic Biomass and its Main Structural Polymers as Sustainable Materials for (Bio)Sensing Applications",
+        "journal": "Journal of Materials Chemistry A 2025",
+        "ref": "13, 24185–24253",
+        "url": "https://doi.org/10.1039/D5TA02900G",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2025,
+        "authors": "D.M. González Mosquera, Y. Cañizares Carmenate, A.I. Rivero Arbolay, R. Romero Borges, M.L. García Gómez, F. Blanco Machado, K. González Valcarel, R. Díaz-Amador, A. Osorio-Madrazo, G. Cairo Saez, E. Tuenter",
+        "title": "Evaluation of the antihypertensive activity of the aqueous extract and the major flavonoid from Boldoa purpurascens Cav. leaves",
+        "journal": "Fitoterapia 2025",
+        "ref": "185, 106724",
+        "url": "https://doi.org/10.1016/j.fitote.2025.106724",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2024,
+        "authors": "J. Weygant, A. Entezari, F. Koch, R. André Galaviz, C.E. Garcia, P. Hernández, V. Ortiz, D.S. Rendon Ruiz, F. Aguilar, A. Andolfi, L. Cai, S. Maharjan, A. Osorio, Y.S. Zhang*",
+        "title": "Droplet 3D Cryobioprinting for Fabrication of Free-Standing and Volumetric Structures",
+        "journal": "Aggregate 2024",
+        "ref": "e599",
+        "url": "https://doi.org/10.1002/agt2.599",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2024,
+        "authors": "H. Peniche, I.A. Razonado, P. Alcouffe, G. Sudre, C. Peniche, A. Osorio-Madrazo*, L. David*",
+        "title": "Wet-Spun Chitosan–Sodium Caseinate Fibers for Biomedicine: From Spinning Process to Physical Properties",
+        "journal": "International Journal of Molecular Sciences 2024",
+        "ref": "25, 1768",
+        "url": "https://doi.org/10.3390/ijms25031768",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2024,
+        "authors": "A. Morcos, T.A. Tran, G. Sudre, A. Osorio-Madrazo, V. Mai, E.-J. Courtial, et al.",
+        "title": "Structural Anisotropy Characterization of Fiber-Reinforced Hydrogels Scaffolds During Extrusion-Based 3D Printing for Soft Tissue Repair",
+        "journal": "European Synchrotron Radiation Facility (ESRF) 2024",
+        "ref": "",
+        "url": "https://doi.esrf.fr/10.15151/ESRF-DC-2007535936",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2023,
+        "authors": "L.D.W. Djouonkep, C.T. Tamo, B.E. Simo, N. Issah, M.N. Tchouagtie, N.B.S. Selabi, I. Doench, A. Kamdem Tamo, B. Xie, A. Osorio-Madrazo*",
+        "title": "Synthesis by Melt-Polymerization of a Novel Series of Bio-Based and Biodegradable Thiophene-Containing Copolyesters with Promising Gas Barrier and High Thermomechanical Properties",
+        "journal": "Molecules 2023",
+        "ref": "28, 1825",
+        "url": "https://doi.org/10.3390/molecules28041825",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "L.D.W. Djouonkep, A. Pierre Tchameni, N.B. Songwe Selabi, A. Kamdem Tamo, I. Doench, Z. Cheng, M. Gauthier, B. Xie, A. Osorio-Madrazo*",
+        "title": "Bio-Based Degradable Poly(ether-ester)s from Melt-Polymerization of Aromatic Ester and Ether Diols",
+        "journal": "International Journal of Molecular Sciences 2022",
+        "ref": "23, 8967",
+        "url": "https://doi.org/10.3390/ijms23168967",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "L.D.W. Djouonkep, A. Kamdem Tamo, I. Doench, N.B.S. Selabi, E.M. Ilunga, A.R.K. Lenwoue, M. Gauthier, Z. Cheng, A. Osorio-Madrazo*",
+        "title": "Synthesis of High Performance Thiophene–Aromatic Polyesters from Bio-Sourced Organic Acids and Polysaccharide-Derived Diol: Characterization and Degradability Studies",
+        "journal": "Molecules 2022",
+        "ref": "27, 325",
+        "url": "https://doi.org/10.3390/molecules27010325",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "A. Kamdem Tamo, T.A. Tran, I. Doench, S. Jahangir, A. Lall, L. David, C. Peniche Covas, A. Walther, A. Osorio-Madrazo*",
+        "title": "3D Printing of Cellulase-Laden Cellulose Nanofiber/Chitosan Hydrogel Composites: Towards Tissue Engineering Functional Biomaterials with Enzyme-Mediated Biodegradation",
+        "journal": "Materials 2022",
+        "ref": "15(17), 6039",
+        "url": "https://doi.org/10.3390/ma15176039",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "F.E. Bentley, R. Passieux, L. David, A. Osorio-Madrazo*",
+        "title": "Pure Chitosan Biomedical Textile Fibers from Mixtures of Low- and High-Molecular Weight Bidisperse Polymer Solutions: Processing and Understanding of Microstructure–Mechanical Properties' Relationship",
+        "journal": "International Journal of Molecular Sciences 2022",
+        "ref": "23, 4767",
+        "url": "https://doi.org/10.3390/ijms23094767",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "D.V. Tabe Ebunang, K. Yemele Tajeu, C. Nkepdep Pecheu, S.L. Zambou Jiokeng, A. Kamdem Tamo, I. Doench, A. Osorio-Madrazo*, E. Ngameni*",
+        "title": "Amino-Functionalized Laponite Clay Material as a Sensor Modifier for the Electrochemical Detection of Quercetin",
+        "journal": "Sensors 2022",
+        "ref": "22, 6171",
+        "url": "https://doi.org/10.3390/s22166173",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "J.J.K. Ngouoko, K.Y. Tajeu, R.C.T. Temgoua, G. Doungmo, I. Doench, A. Kamdem Tamo*, T. Kamgaing, A. Osorio-Madrazo*, I.K. Tonle*",
+        "title": "Hydroxyapatite/L-Lysine Composite Coating as Glassy Carbon Electrode Modifier for the Analysis and Detection of Nile Blue A",
+        "journal": "Materials 2022",
+        "ref": "15, 4262",
+        "url": "https://doi.org/10.3390/ma15124262",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "G.F. Kazé Nindjio, R.F. Tiegam Tagne, S.L. Zambou Jiokeng, C. Ghislain Fotsop, A. Bopda, G. Doungmo, R.C. Tonleu Temgoua, I. Doench, E. Tamungang Njoyim, A. Kamdem Tamo, A. Osorio-Madrazo*, I.K. Tonle*",
+        "title": "Lignocellulosic-Based Materials from Bean and Pistachio Pod Wastes for Dye-Contaminated Water Treatment: Optimization and Modeling of Indigo Carmine Sorption",
+        "journal": "Polymers 2022",
+        "ref": "14, 3776",
+        "url": "https://doi.org/10.3390/polym14183776",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2022,
+        "authors": "C. Nkepdep Pecheu, S.L. Zambou Jiokeng, A. Kamdem Tamo, G. Doungmo, I. Doench, A. Osorio-Madrazo*, I.K. Tonle*, E. Ngameni",
+        "title": "Fabrication of an Organofunctionalized Talc-like Magnesium Phyllosilicate for the Electrochemical Sensing of Lead Ions in Water Samples",
+        "journal": "Nanomaterials 2022",
+        "ref": "12, 2928",
+        "url": "https://doi.org/10.3390/nano12172928",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2021,
+        "authors": "A. Kamdem Tamo, I. Doench, L. Walter, A. Montembault, G. Sudre, L. David, A. Morales-Helguera, M. Selig, B. Rolauffs, A. Bernstein, D. Hoenders, A. Walther, A. Osorio-Madrazo*",
+        "title": "Development of Bioinspired Functional Chitosan/Cellulose Nanofiber 3D Hydrogel Constructs by 3D Printing for Application in the Engineering of Mechanically Demanding Tissues",
+        "journal": "Polymers 2021",
+        "ref": "13(10), 1683",
+        "url": "https://doi.org/10.3390/polym13101663",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2021,
+        "authors": "S. Amine, A. Montembault, M. Fumagalli, A. Osorio-Madrazo, L. David",
+        "title": "Controlled Polyelectrolyte Association of Chitosan and Carboxylated Nano-Fibrillated Cellulose by Desalting",
+        "journal": "Polymers 2021",
+        "ref": "13(12), 2023",
+        "url": "https://doi.org/10.3390/polym13122023",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2021,
+        "authors": "S. Marquez-Bravo, I. Doench, P. Molina, F.E. Bentley, A. Kamdem Tamo, R. Passieux, F. Lossada, L. David, A. Osorio-Madrazo*",
+        "title": "Functional Bionanocomposite Fibers of Chitosan Filled with Cellulose Nanofibers Obtained by Gel Spinning",
+        "journal": "Polymers 2021",
+        "ref": "13(10), 1563",
+        "url": "https://doi.org/10.3390/polym13101563",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2021,
+        "authors": "A. Kamdem Tamo, I. Doench, L. Walter, T.A. Tuan, A. Montembault, L. David, D. Hoenders, A. Walther, A. Osorio-Madrazo*",
+        "title": "3D gedruckte funktionale Hydrogele aus Chitosan mit Zellulose-Nanofasern für Tissue Engineering",
+        "titleEn": "3D printed functional hydrogels of chitosan with cellulose nanofibers for tissue engineering",
+        "journal": "Highlights Freiburg Materials Research Center 2021",
+        "ref": "33–38",
+        "url": "https://doi.org/10.6094/UNIFR/218472",
+        "oa": false,
+        "lang": "de",
+        "arr": "articles"
+      },
+      {
+        "y": 2021,
+        "authors": "S. Marquez-Bravo, I. Doench, P. Molina, F.E. Bentley, A. Kamdem Tamo, L. Walter, F. Lossada, L. David, A. Osorio-Madrazo*",
+        "title": "Durch Nassspinnverfahren hergestellte Zellulose-Nanofaser verstärkte Chitosan Komposit-Fasern",
+        "titleEn": "Cellulose Nanofiber-Reinforced Chitosan Composite Fibers Produced by Wet-Spinning",
+        "journal": "Highlights Freiburg Materials Research Center 2021",
+        "ref": "22–26",
+        "url": "https://doi.org/10.6094/UNIFR/218472",
+        "oa": false,
+        "lang": "de",
+        "arr": "articles"
+      },
+      {
+        "y": 2020,
+        "authors": "L. v. Palubitzki, Y. Wang, S. Hoffmann, S. Vidal-y-Sy, B. Zobiak, A.V. Failla, P. Schmage, A. John, A. Osorio-Madrazo, A.T. Bauer, S.W. Schneider, F.M. Goycoolea, C. Gorzelanny",
+        "title": "Differences of the Tumour Cell Glycocalyx Affect Binding of Capsaicin-Loaded Chitosan Nanocapsules",
+        "journal": "Nature Scientific Reports 2020",
+        "ref": "10, 22443",
+        "url": "https://doi.org/10.1038/s41598-020-79882-y",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2020,
+        "authors": "A. Kamdem Tamo, I. Doench, A. Morales Helguera, D. Hoenders, A. Walther, A. Osorio-Madrazo*",
+        "title": "Biodegradation of Crystalline Cellulose Nanofibers by Means of Enzyme Immobilized-Alginate Beads and Microparticles",
+        "journal": "Polymers 2020",
+        "ref": "12(7), 1522",
+        "url": "https://doi.org/10.3390/polym12071522",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2020,
+        "authors": "A. Lall, A. Kamdem Tamo, I. Doench, L. David, P. Nunes de Oliveira, C. Gorzelanny, A. Osorio-Madrazo*",
+        "title": "Nanoparticles and Colloidal Hydrogels of Chitosan–Caseinate Polyelectrolyte Complexes for Drug Controlled Release Applications",
+        "journal": "International Journal of Molecular Sciences 2020",
+        "ref": "21(16), 5602",
+        "url": "https://doi.org/10.3390/ijms21165602",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2020,
+        "authors": "I. Doench, A. Kamdem, M.E.W. Torres-Ramos, A. Montembault, P.N. Oliveira, C. Halimi, E. Viguier, A. Osorio-Madrazo*",
+        "title": "Hydrogele und injizierbare Materialien aus Chitosan und Polysaccharid-Nanofasern für Biomaterialien-basierte Therapie des Bandscheibengewebes",
+        "titleEn": "Hydrogels and injectable materials of chitosan and polysaccharide nanofibers for intervertebral disc biomaterial-based therapy",
+        "journal": "Highlights Freiburg Materials Research Center 2020",
+        "ref": "69–74",
+        "url": "https://doi.org/10.6094/UNIFR/166592",
+        "oa": false,
+        "lang": "de",
+        "arr": "articles"
+      },
+      {
+        "y": 2019,
+        "authors": "I. Doench, T.A. Tran, L. David, A. Montembault, E. Viguier, C. Gorzelanny, G. Sudre, T. Cachon, M. Louback, N. Horbelt, C. Peniche, A. Osorio-Madrazo*",
+        "title": "Cellulose Nanofiber-Reinforced Chitosan Hydrogel Composites for Intervertebral Disc Tissue Repair",
+        "journal": "Biomimetics 2019",
+        "ref": "4, 19",
+        "url": "https://doi.org/10.3390/biomimetics4010019",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2019,
+        "authors": "J. Schwieger, N. Kakuan, A. Osorio-Madrazo, T. Lenarz, V. Scheper",
+        "title": "Neurite regeneration of primary auditory neurons in hydrogels",
+        "journal": "Laryngo-Rhino-Otologie 2019",
+        "ref": "98(S02), S389–S390",
+        "url": "https://doi.org/10.1055/s-0039-1686893",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2018,
+        "authors": "I. Doench, M.E.W. Torres-Ramos, A. Montembault, P.-N. de Oliveira, C. Halimi, E. Viguier, L. Heux, R. Siadous, R.M.S.M. Thiré, A. Osorio-Madrazo*",
+        "title": "Injectable and Gellable Chitosan Formulations Filled with Cellulose Nanofibers for Intervertebral Disc Tissue Engineering",
+        "journal": "Polymers 2018",
+        "ref": "10, 1202",
+        "url": "https://doi.org/10.3390/polym10111202",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2018,
+        "authors": "A. Lavoine, Y. Politi, P. Fratzl, L. David, G. Sudre, M.A. Ramirez, C. Peniche, I. Doench, G. Urban, A. Osorio-Madrazo*",
+        "title": "Panulirus argus Hummer-Panzer als vielseitiges Material für die Bioinspiration",
+        "titleEn": "Panulirus argus lobster cuticle as versatile material for the bioinspiration",
+        "journal": "Highlights Freiburg Materials Research Center 2018",
+        "ref": "37–42",
+        "url": "https://doi.org/10.6094/UNIFR/16230",
+        "oa": false,
+        "lang": "de",
+        "arr": "articles"
+      },
+      {
+        "y": 2017,
+        "authors": "J. Toeri, A. Osorio-Madrazo, M.-P. Laborie",
+        "title": "Preparation and Chemical/Microstructural Characterization of Azacrown Ether-Crosslinked Chitosan Films",
+        "journal": "Materials 2017",
+        "ref": "10, 400",
+        "url": "https://doi.org/10.3390/ma10040400",
+        "oa": true,
+        "arr": "articles"
+      },
+      {
+        "y": 2017,
+        "authors": "H. Peniche Agüero, L. David, C. Peniche Covas, A. Osorio-Madrazo*",
+        "title": "Bioinspired Chitosan-Bovine Serum Albumin (BSA) Fibres for Applications in Intervertebral Disc Annulus Fibrosus Tissue Engineering",
+        "journal": "Rev. Cubana Investigaciones Biomédicas 2017",
+        "ref": "36(1), 1–11",
+        "url": "",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2015,
+        "authors": "A. Osorio-Madrazo*, L. David, C. Peniche, C. Rochas, J.-L. Putaux, S. Trombotto, P. Alcouffe, A. Domard",
+        "title": "Fine Microstructure of Processed Chitosan Nanofibril Networks Preserving Directional Packing and High Molecular Weight",
+        "journal": "Carbohydrate Polymers 2015",
+        "ref": "131, 1–8",
+        "url": "https://doi.org/10.1016/j.carbpol.2015.05.011",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2015,
+        "authors": "A. Osorio-Madrazo*, P. Fratzl, L. David, G. Urban, A. Montembault, A. Crepet, C. Gorzelanny, C. Mochales-Palau, L. Heux, J.-L. Putaux, T. Cachon, E. Viguier, C. Peniche, G. Sudre, Y. Politi",
+        "title": "Hydrogel Nanocomposite Biomaterials for Intervertebral Disc Tissue Engineering. Preparation, Characterization and Application",
+        "journal": "Bionanomaterials 2015",
+        "ref": "16, 236–255",
+        "url": "https://doi.org/10.1515/bnm-2015-9023",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2015,
+        "authors": "H. Abushammala, J.F. Pontes, G.H. Gomes, A. Osorio-Madrazo, R. Thiré, F. Pereira, M.-P. Laborie",
+        "title": "Swelling, Viscoelastic, and Anatomical Studies on Ionic Liquid-Swollen Norway Spruce as a Screening Tool Toward Ionosolv Pulping",
+        "journal": "Holzforschung 2015",
+        "ref": "69, 1059–1067",
+        "url": "https://doi.org/10.1515/hf-2014-0292",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2013,
+        "authors": "J. Mao, A. Osorio-Madrazo, M.-P. Laborie",
+        "title": "Preparation of Cellulose I Nanowhiskers with a Mildly Acidic Aqueous Ionic Liquid: Reaction Efficiency and Whiskers Attributes",
+        "journal": "Cellulose 2013",
+        "ref": "20, 1829–1840",
+        "url": "https://doi.org/10.1007/s10570-013-9942-2",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2013,
+        "authors": "D.E. García, W.G. Glasser, A. Pizzi, A. Osorio-Madrazo, M.-P. Laborie",
+        "title": "Hydroxypropyl Tannin Derivatives from Pinus pinaster (Ait.) Bark",
+        "journal": "Industrial Crops and Products 2013",
+        "ref": "49, 730–739",
+        "url": "https://doi.org/10.1016/j.indcrop.2013.06.019",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2013,
+        "authors": "D.E. García, W.G. Glasser, A. Pizzi, A. Osorio-Madrazo, M.-P. Laborie",
+        "title": "Synthesis and Physicochemical Properties of Hydroxypropyl Tannins from Maritime Pine Bark (Pinus pinaster Ait.)",
+        "journal": "Holzforschung 2013",
+        "ref": "68, 411–418",
+        "url": "https://doi.org/10.1515/hf-2013-0145",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2012,
+        "authors": "A. Osorio-Madrazo*, M. Eder, M. Rueggeberg, J.K. Pandey, M.J. Harrington, Y. Nishiyama, J.-L. Putaux, C. Rochas, I. Burgert",
+        "title": "Reorientation of Cellulose Nanowhiskers in Agarose Hydrogels under Tensile Loading",
+        "journal": "Biomacromolecules 2012",
+        "ref": "13(3), 850–856",
+        "url": "https://doi.org/10.1021/bm201764y",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2011,
+        "authors": "A. Osorio-Madrazo, L. David, S. Trombotto, J-M. Lucas, C. Peniche, A. Domard",
+        "title": "Highly Crystalline Chitosan Produced by Multi-Steps Acid Hydrolysis in the Solid-State",
+        "journal": "Carbohydrate Polymers 2011",
+        "ref": "83(4), 1730–1739",
+        "url": "https://doi.org/10.1016/j.carbpol.2010.10.035",
+        "oa": false,
+        "arr": "articles"
+      },
+      {
+        "y": 2010,
+        "authors": "A. Osorio-Madrazo, L. David, S. Trombotto, J-M. Lucas, C. Peniche, A. Domard",
+        "title": "Kinetics Study of the Solid-State Acid Hydrolysis of Chitosan: Evolution of the Crystallinity and Macromolecular Structure",
+        "journal": "Biomacromolecules 2010",
+        "ref": "11(5), 1376–1386",
+        "url": "https://doi.org/10.1021/bm1001685",
+        "oa": false,
+        "arr": "articles"
+      }
+    ],
+    "chapters": [
+      {
+        "y": 2019,
+        "authors": "P. Samyn*, A. Osorio-Madrazo*",
+        "title": "Native Crystalline Polysaccharide Nanofibers: Processing and Properties",
+        "journal": "Handbook of Nanofibers (Springer), Eds. A. Barhoum, M. Bechelany & A. Makhlouf 2019",
+        "ref": "ISBN 978-3-319-42789-8",
+        "url": "https://doi.org/10.1007/978-3-319-42789-8_17-1",
+        "arr": "chapters"
+      },
+      {
+        "y": 2013,
+        "authors": "A. Osorio-Madrazo*, M.-P. Laborie*",
+        "title": "Morphological and Thermal Investigations of Cellulosic Bionanocomposites",
+        "journal": "Biopolymer Nanocomposites: Processing, Properties, and Applications (Wiley), Eds. A. Dufresne, S. Thomas & L.A. Pothan 2013",
+        "ref": "ISBN 978-1-118-21835-8",
+        "url": "https://doi.org/10.1002/9781118609958.ch18",
+        "arr": "chapters"
+      }
+    ],
+    "patents": [
+      {
+        "y": 2019,
+        "authors": "A. Osorio-Madrazo, L. David, A. Montembault, E. Viguier, T. Cachon",
+        "title": "Hydrogel Composites Comprising Chitosan and Cellulose Nanofibers",
+        "journal": "PCT/EP2019/056346 — WO2019/175279 (19 Sep 2019) · EP3765104B1 (24 Aug 2022) · US App. 16/980,383 (12 Feb 2021)",
+        "ref": "",
+        "url": "",
+        "arr": "patents"
+      }
+    ]
+  },
+  "teaching": [
+    {
+      "period": "Since 2024 — University of Bayreuth",
+      "groups": [
+        {
+          "program": "MSc. Biofabrication · MSc. Materials Science and Engineering",
+          "items": [
+            "Aspects of Processing of Polymer Materials (Lectures, Exercises, Laboratory Practicums) — Language: English"
+          ]
+        },
+        {
+          "program": "BSc. Engineering Sciences",
+          "items": [
+            "Chemie für Ingenieure II / Vertiefung der chemischen Grundlagen (Lectures, Exercises, Laboratory Practicums) — Language: German"
+          ]
+        },
+        {
+          "program": "MSc. Biotechnologie und chemische Verfahrenstechnik",
+          "items": [
+            "Biopolymerverarbeitung (Lectures, Exercises, Laboratory Practicums) — Language: German"
+          ]
+        }
+      ]
+    },
+    {
+      "period": "2017–2022 — University of Freiburg",
+      "groups": [
+        {
+          "program": "MSc. Functional Materials · MSc Polymer Science · MSc Microsystems Engineering",
+          "items": [
+            "Bioinspired Functional Materials (Lectures) — Language: German/ English",
+            "<i>Ringvorlesung</i> (Lecture series) Methods of Materials Science — Language: German",
+            "<i>Ringpraktikum</i> (Laboratory practicum series) Methods of Materials Science — Language: German",
+            "Sensors and Actuators (Lectures, Laboratory Practicums) — Language: German/ English"
+          ]
+        },
+        {
+          "program": "BSc. Mikrosystemtechnik · BSc. Embedded Systems Engineering · BSc. Nachhaltige Technische Systeme",
+          "items": [
+            "General and Inorganic Chemistry for Engineers (Exercises) — Language: German"
+          ]
+        },
+        {
+          "program": "BSc. Waldwirtschaft und Umwelt",
+          "items": [
+            "<i>NaWaRo</i> Renewable Resources (Lectures, Seminars) — Language: German"
+          ]
+        }
+      ]
+    },
+    {
+      "period": "2011–2013 — University of Freiburg",
+      "groups": [
+        {
+          "program": "MSc. Renewable Energy Management",
+          "items": [
+            "Fundamentals of Chemistry (Lectures, Exercises)"
+          ]
+        }
+      ]
+    }
+  ],
+  "team": [
+    {
+      "name": "Anayancy Osorio Madrazo",
+      "role": "Laboratory Head",
+      "email": "anayancy.osorio-madrazo@uni-bayreuth.de",
+      "img": "assets/img/anayancy-mvw.webp",
+      "bio": "Dr. Anayancy Osorio-Madrazo leads the Laboratory of Organ Printing at the University of Bayreuth since 2024. She led the Laboratory of Intelligent Polymer Materials at the University of Jena, have led the Emmy Noether junior research group funded by the German Research Foundation (DFG) since 2021 (previously at the University of Freiburg). Besides, she was a fellow of the Margarete von Wrangell Habilitation programme for women, and a postdoctoral fellow of the Max Planck Society, Max Planck Institute of Colloids and Interfaces MPIKG. She is Secretary General of the European Chitin Society EUCHIS (www.euchis.org).",
+      "linkedin": "https://www.linkedin.com/in/anayancy-osorio-madrazo-02078723/",
+      "twitter": "https://x.com/OsorioAnayancy"
+    },
+    {
+      "name": "Ingo Dönch",
+      "role": "Academic Assistant",
+      "email": "ingo.doench@uni-bayreuth.de",
+      "img": "assets/img/ingo.webp",
+      "bio": "Dr. Ingo Dönch studied chemistry at the Freie Universität FU Berlin with a focus on polymer chemistry, completing his Diplom in 2004 on AFM of polyelectrolyte multilayers at the Max Planck Institute of Colloids and Interfaces (MPIKG). From 2004 to 2009 he did his doctorate at MPIKG on the mechanical properties of polyelectrolyte multilayers, working extensively with atomic force microscopy and neutron reflectometry. As a postdoc he worked on corrosion protection via sol-gel coatings and self-healing lacquers, then gained industry experience in personnel, lab management, business development and patents. Since 2017 he has worked as a postdoc on bioinspired biomaterials, 3D cell printing, culture and cell-culture monitoring at IMTEK, University of Freiburg, and more recently at the Laboratory of Organ Printing, University of Bayreuth."
+    },
+    {
+      "name": "Shaghayegh Jahangir",
+      "role": "PhD",
+      "email": "shaghayegh.jahangir@uni-bayreuth.de",
+      "img": "assets/img/shaghayegh.webp"
+    },
+    {
+      "name": "Tuan Anh Tran",
+      "role": "PhD",
+      "email": "tuan.anh-tran@uni-bayreuth.de",
+      "img": "assets/img/tuan.webp"
+    },
+    {
+      "name": "Alexandra Grossdorf",
+      "role": "External PhD",
+      "email": "a.grossdorf@uke.de",
+      "img": "assets/img/alexandra.webp"
+    },
+    {
+      "name": "Mehmet Talha Yapa",
+      "role": "External PhD",
+      "email": "mehmet.talha.yapa@biomat.uni-freiburg.de",
+      "img": "assets/img/mehmet.webp"
+    },
+    {
+      "name": "Dulce M. González Mosquera",
+      "role": "Postdoc",
+      "email": "dulce.gonzalez-mosquera@uni-bayreuth.de",
+      "img": "assets/img/dulce.webp"
+    },
+    {
+      "name": "Isabel Fraile Gutiérrez",
+      "role": "Postdoc",
+      "email": "isabel.fraile-gutierrez@uni-bayreuth.de",
+      "img": "assets/img/isabel.webp"
+    },
+    {
+      "name": "Stefano Fedeli",
+      "role": "Postdoc",
+      "email": "stefano.fedeli@uni-bayreuth.de",
+      "img": "assets/img/stefano.webp"
+    },
+    {
+      "name": "Arnaud Kamdem Tamo",
+      "role": "Guest researcher",
+      "email": "arnaud.kamdemtamo@uk-erlangen.de",
+      "img": "assets/img/arnaud.webp"
+    },
+    {
+      "name": "Hazel Peniche Agüero",
+      "role": "Guest researcher",
+      "email": "hazel@biomat.uh.cu",
+      "img": "assets/img/hazel.webp"
+    },
+    {
+      "name": "Ignas Tonle Kenfack",
+      "role": "Guest researcher",
+      "email": "ignas.tonle@univ-dschang.org",
+      "img": "assets/img/ignas.webp"
+    },
+    {
+      "name": "Joseph Amoako",
+      "role": "MSc Student",
+      "email": "joseph.amoako@uni-bayreuth.de",
+      "img": "assets/img/joseph.webp"
+    },
+    {
+      "name": "Isabelle Mayer",
+      "role": "MSc Student",
+      "email": "isabelle.mayer@uni-bayreuth.de",
+      "img": "assets/img/isabelle.webp"
+    },
+    {
+      "name": "Clea Gabor",
+      "role": "BSc Student",
+      "email": "clea.gabor@uni-bayreuth.de",
+      "img": "assets/img/clea.webp"
+    }
+  ],
+  "alumni": [
+    "Fritz Koch",
+    "Lukas Walter",
+    "Manuel Fisher",
+    "Per Löthman",
+    "Sofia G. Marquez Bravo",
+    "Flor Estefany Bentley",
+    "Aastha Lall",
+    "Pamela Molina",
+    "Camille Laurent",
+    "Behrokh Shams",
+    "Julius Ratumo Toeri",
+    "Malika Louback",
+    "Anthony Lavoine",
+    "Maria E.W. Torres Ramos",
+    "Olga Rusu",
+    "Mershad Nouranivatani",
+    "Diego Flore Robles",
+    "Aadim Nyaichyai"
+  ],
+  "media": [
+    {
+      "title": "Fast wie lebendes Gewebe - Die Freiburger Chemikerin Anayancy Osorio forscht an Hydrogelen um etwa Bandscheibenvorfälle zu kurieren",
+      "desc": "Freiburg chemist Anayancy Osorio researches hydrogels — among other things, to heal herniated discs",
+      "source": "Badische Zeitung",
+      "date": "26 Oct 2019",
+      "url": "https://www.badische-zeitung.de/fast-wie-lebendes-gewebe--178701065.html"
+    },
+    {
+      "title": "Emmy Noether funding for Anayancy Osorio",
+      "desc": "Freiburg chemist receives 1.9 million euros from the German Research Foundation",
+      "source": "University of Freiburg",
+      "date": "11 Oct 2019",
+      "url": "https://www.pr.uni-freiburg.de/pm/personalia/emmy-noether-foerderung-fuer-anayancy-osorio"
+    },
+    {
+      "title": "Spezialistin für Organ Printing ist an der UBT - Prof. Dr. Anayancy Osorio Madrazo hat 2024 die Professur für „Organ Printing“ angetreten.",
+      "desc": "Prof. Dr. Anayancy Osorio Madrazo took up the chair of \"Organ Printing\" in 2024",
+      "source": "ubtaktuell Campusmagazin",
+      "date": "10 Apr 2025",
+      "url": "https://ubtaktuell.uni-bayreuth.de/prof-osorio-madrazo"
+    },
+    {
+      "title": "Bayreuth ist \"bayerische Superzelle\" - Minister weiht neue Gebäude ein",
+      "desc": "Minister inaugurates new buildings",
+      "source": "University of Bayreuth",
+      "date": "9 Apr 2024",
+      "url": "https://www.uni-bayreuth.de/pressemitteilung/blume-weiht-gebaeude-ein"
+    },
+    {
+      "title": "Neues Laborgebäude der Superlative - Grundlagenforschung auf Weltniveau, um Krankheiten zu verstehen und zu heilen",
+      "desc": "World-class fundamental research to understand and heal diseases",
+      "source": "Nordbayerischer Kurier",
+      "date": "8 Apr 2024",
+      "url": "https://www.kurier.de/inhalt.wie-man-krank-wird-lego-mit-proteinen-und-carrerabahn-fuer-zellen.e81f81ae-6083-494e-94d3-0ae7f1f138a1.html"
+    },
+    {
+      "title": "Professor in five years",
+      "desc": "Two Freiburg researchers succeed in the Margarete von Wrangell habilitation programme for women",
+      "source": "University of Freiburg",
+      "date": "26 Jan 2017",
+      "url": "https://www.pr.uni-freiburg.de/pm/personalia/professorin-in-fuenf-jahren"
+    }
+  ],
+  "contact": {
+    "name": "Dr. Anayancy Osorio Madrazo, PhD",
+    "address": [
+      "Universitätstr. 30, NW IV",
+      "95447 Bayreuth",
+      "Germany"
+    ],
+    "email": "anayancy.osorio-madrazo@uni-bayreuth.de",
+    "phone": "+49 921-55-7961",
+    "linkedin": "https://www.linkedin.com/in/anayancy-osorio-madrazo-02078723/",
+    "twitter": "https://x.com/OsorioAnayancy"
+  },
+  "news": [],
+  "heroQuote": "We design bioinspired polymeric materials with targeted functionalities for technological and biomedical solutions. Through 3D cell printing we develop biomaterials that interact with tissues and support their regeneration",
+  "heroQuoteAttr": "Dr. Anayancy Osorio Madrazo",
+  "i18n": {
+    "nav.research": "Research",
+    "nav.publications": "Publications",
+    "nav.teaching": "Teaching",
+    "nav.team": "Our People",
+    "nav.media": "In the Media",
+    "nav.contact": "Contact",
+    "lab.institution.short": "University of Bayreuth",
+    "hero.eyebrow": "Laboratory on Polymer Materials & Organ Printing",
+    "hero.title": "Polymer Materials<br>& <em>Organ Printing</em>",
+    "hero.cta1": "MEET ANAYANCY OSORIO",
+    "hero.cta2": "Explore the research",
+    "hero.stat": "Publications",
+    "sec.research": "Research",
+    "sec.publications": "Publications",
+    "sec.teaching": "Teaching",
+    "sec.team": "OUR PEOPLE",
+    "sec.alumni": "Alumni",
+    "sec.media": "IN THE MEDIA",
+    "sec.contact": "Contact & Lead",
+    "h.research": "Materials inspired <em>by nature</em>",
+    "h.publications": "Scientific <em>Publications</em>",
+    "h.teaching": "University <em>Teaching</em>",
+    "h.team": "Our <em>People</em>",
+    "h.alumni": "Former <em>members</em>",
+    "h.media": "Press, interviews <em>&amp; TV</em>",
+    "h.contact": "Let's <em>talk</em>",
+    "topics.head": "Current research topics",
+    "stats.publications": "Publications",
+    "stats.topics": "Research topics",
+    "pubs.filterAll": "All",
+    "pubs.filterArticles": "Peer-reviewed articles",
+    "pubs.filterChapters": "Book chapters",
+    "pubs.filterPatents": "Patents",
+    "pubs.subArticles": "Peer-reviewed articles",
+    "pubs.subChapters": "Book chapters",
+    "pubs.subPatents": "Patents",
+    "pubs.oa": "Open access",
+    "pubs.de": "DE",
+    "pubs.deen": "DE & EN",
+    "pubs.es": "ES",
+    "pubs.enes": "EN & ES",
+    "team.view": "View profile",
+    "team.groupCaption": "The Osorio Lab group · University of Bayreuth",
+    "media.read": "Read more",
+    "contact.intro": "Interested in collaborating, joining the group, or a research stay?",
+    "contact.groupLead": "Laboratory Head",
+    "contact.address": "Address",
+    "contact.phone": "Phone",
+    "contact.email": "E-Mail",
+    "footer.copyright": "Laboratory on Polymer Materials & Organ Printing",
+    "a11y.menu": "Menu",
+    "a11y.close": "Close",
+    "hero.figureAlt": "Presentation figure",
+    "toTop": "Back to top",
+    "nav.about": "Meet Anayancy Osorio",
+    "nav.news": "News",
+    "sec.about": "MEET ANAYANCY OSORIO",
+    "sec.news": "NEWS",
+    "h.about": "Meet <em>Anayancy Osorio</em>",
+    "h.news": "Latest <em>news</em>",
+    "hero.quote": "We design bioinspired polymeric materials with targeted functionalities for technological and biomedical solutions. Through 3D cell printing we develop biomaterials that interact with tissues and support their regeneration",
+    "about.photoAlt": "Prof. Dr. Anayancy Osorio-Madrazo",
+    "pubs.moreLabel": "For a complete publications list go to:",
+    "news.placeholder": "Thesis defences, awards, conferences and more — this section will be updated soon."
+  },
+  "teamPhoto": "assets/img/team-group.jpg?v=4"
+}
