@@ -106,3 +106,13 @@ python -m http.server 3000
 - [anime.js](https://github.com/juliangarnier/anime) by Julian Garnier — motion engine.
 - Content © Laboratory on Polymer Materials & Organ Printing, University of Bayreuth.
 - Site developed for the Osorio Lab by [Jonathan Martínez López](https://github.com/RedBagDude).
+
+## Maintenance Notes
+
+The day-to-day surface of this site is deliberately small: nearly every routine update belongs in `content.json`, while the TypeScript sources only need attention when the shape of that data changes or when rendering, internationalization, animation or SEO behavior is adjusted.
+
+Keep the seed in `data.ts` in step with any structural change to the JSON. It is both the fallback used when the runtime content fetch fails and the definition of the typed content contract, so drift between the two shows up as inconsistent behavior rather than an obvious error.
+
+Prefer editing existing values over adding new fields. The optional ones are the safest path for partial information: a team member without a photo, bio or social link, and a publication without a link, all degrade gracefully instead of breaking the layout.
+
+Because a mistyped value fails the build rather than production, run the build after every content change and only upload once it passes. Deployments stay a plain file upload — ship everything except the build-only folders and configuration file — and whenever the compiled JavaScript changes, also bump the cache-busting identifiers on the script tags so returning visitors do not mix a fresh bundle with a stale one.
