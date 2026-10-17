@@ -116,3 +116,19 @@ Keep the seed in `data.ts` in step with any structural change to the JSON. It is
 Prefer editing existing values over adding new fields. The optional ones are the safest path for partial information: a team member without a photo, bio or social link, and a publication without a link, all degrade gracefully instead of breaking the layout.
 
 Because a mistyped value fails the build rather than production, run the build after every content change and only upload once it passes. Deployments stay a plain file upload — ship everything except the build-only folders and configuration file — and whenever the compiled JavaScript changes, also bump the cache-busting identifiers on the script tags so returning visitors do not mix a fresh bundle with a stale one.
+
+## Frequently Asked Questions
+
+Most updates belong in `content.json`, so before touching any TypeScript ask whether the change alters the shape of the data or only its values; when it is only values, editing the JSON is the whole job.
+
+If the build fails after a content edit, the typed contract is working as intended: the JSON no longer matches the interfaces declared in `data.ts`, and the compiler flags the offending entry instead of letting a broken page reach production.
+
+Missing photos, bios, social links or publication links are not errors — those fields are optional by design and the layout degrades to initials, hidden paragraphs or absent links, so partial information can be published safely.
+
+Changing the shape of the data is the one case that requires code work: the interfaces, the seed in `data.ts` and the runtime fetch fallback must move together, otherwise the site behaves inconsistently rather than failing loudly.
+
+Because the only external runtime dependency is the motion library, rendering, templating and state stay hand-rolled; treat the compiled JavaScript as the shipping artifact and the TypeScript sources as the authoring layer the server never needs.
+
+Accessibility and caching behavior are deliberate, not incidental: ambient motion respects reduced-motion preferences and small viewports, and any change to the compiled JavaScript should come with refreshed cache-busting identifiers so returning visitors never mix a fresh bundle with a stale one.
+
+Deployment remains a plain file upload — everything except the build-only folders and the configuration file — and, as a rule of thumb, prefer editing existing values over introducing new fields whenever the available data allows it.
