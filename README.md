@@ -132,3 +132,17 @@ Because the only external runtime dependency is the motion library, rendering, t
 Accessibility and caching behavior are deliberate, not incidental: ambient motion respects reduced-motion preferences and small viewports, and any change to the compiled JavaScript should come with refreshed cache-busting identifiers so returning visitors never mix a fresh bundle with a stale one.
 
 Deployment remains a plain file upload — everything except the build-only folders and the configuration file — and, as a rule of thumb, prefer editing existing values over introducing new fields whenever the available data allows it.
+
+## Ownership and Editing Boundaries
+
+The project serves two distinct audiences, and keeping them separate is what keeps the site low-maintenance: laboratory staff own what the page says, while the developer owns how it is rendered and shipped.
+
+For the owner, routine work means editing existing values — publication entries, team profiles, alumni names, research topics, teaching periods, media mentions and the interface strings that can be overridden per language.
+
+For the developer, attention is only warranted when the shape of that data changes, or when rendering, internationalization, animation or SEO behavior needs adjustment.
+
+Shipping discipline belongs with whoever publishes: run the build before uploading, upload only what the static target actually serves, and refresh the cache-busting identifiers whenever the compiled JavaScript changes.
+
+Optional fields are the intended escape hatch for incomplete information, so a partial record can go live without code changes and without breaking the layout.
+
+Respecting that division keeps the editable surface small, makes every change auditable, and ensures content edits stay in one file while code edits stay in the TypeScript sources.
