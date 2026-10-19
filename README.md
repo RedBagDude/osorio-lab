@@ -146,3 +146,15 @@ Shipping discipline belongs with whoever publishes: run the build before uploadi
 Optional fields are the intended escape hatch for incomplete information, so a partial record can go live without code changes and without breaking the layout.
 
 Respecting that division keeps the editable surface small, makes every change auditable, and ensures content edits stay in one file while code edits stay in the TypeScript sources.
+
+## Content Safety and Link Handling
+
+Every value read from `content.json` reaches the page through an HTML escaper, so text supplied by the owner is treated as text rather than markup: angle brackets, stray tags or pasted formatting inside a bio, research topic or publication title render literally instead of becoming page structure.
+
+Links follow the same defensive approach. Only ordinary web addresses, email addresses and telephone numbers are accepted; anything else — notably script-bearing or embedded-data style links — is discarded when the entry is rendered.
+
+For whoever edits the content, the practical consequence is that a link outside those accepted forms simply will not appear, while the surrounding title, author list or description still renders normally. The record degrades rather than breaking the layout.
+
+Images have their own fallback chain: a failed request is retried with cache-busting, and a member without a usable photo still appears through an avatar generated from their initials. A partial record therefore stays presentable and can be published without waiting for every asset to be complete.
+
+This behaviour is intentional and belongs to the rendering layer, not to the content: there is no setting in the JSON to relax it, and the safe course when an entry looks incomplete in the browser is to check the value being supplied rather than to change the code.
