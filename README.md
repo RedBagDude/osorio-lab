@@ -158,3 +158,17 @@ For whoever edits the content, the practical consequence is that a link outside 
 Images have their own fallback chain: a failed request is retried with cache-busting, and a member without a usable photo still appears through an avatar generated from their initials. A partial record therefore stays presentable and can be published without waiting for every asset to be complete.
 
 This behaviour is intentional and belongs to the rendering layer, not to the content: there is no setting in the JSON to relax it, and the safe course when an entry looks incomplete in the browser is to check the value being supplied rather than to change the code.
+
+## Language Overrides and Interface Strings
+
+Interface text is not scattered through the markup: the roughly sixty-four user-facing strings live under a single set of keys, and the `i18n` field of the content file lets any of them be replaced per language without touching the TypeScript sources.
+
+For an editor this means a wording change is a content change like any other — same file, same build, same upload. There is no separate translation file to keep in sync and no second place where the same sentence is stored.
+
+The layer reaches further than visible labels: ARIA labels are resolved through the same keys, so a reworded or translated string also reaches screen-reader users, and a label that reads well on screen but poorly aloud is still worth fixing at the source.
+
+Keep overrides narrow. Replace only the strings that genuinely need different wording and leave the rest untouched, so the default text remains the single reference for what the interface says and nothing drifts silently between languages.
+
+Because these values pass through the same renderer as everything else, they follow the same rules: plain text only, with markup and unaccepted link schemes discarded rather than rendered.
+
+Finally, treat a new key as a change to the shape of the data rather than to its values — it belongs with the code, not in a routine content edit.
