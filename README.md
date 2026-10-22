@@ -172,3 +172,19 @@ Keep overrides narrow. Replace only the strings that genuinely need different wo
 Because these values pass through the same renderer as everything else, they follow the same rules: plain text only, with markup and unaccepted link schemes discarded rather than rendered.
 
 Finally, treat a new key as a change to the shape of the data rather than to its values — it belongs with the code, not in a routine content edit.
+
+## Pre-Publish Checklist
+
+A content change is ready only when the affected entry renders correctly in a local preview served by any static file server; because the page fetches its content at runtime, a malformed record surfaces in the browser rather than at edit time.
+
+Confirm that optional fields are either supplied or intentionally omitted: a missing photo falls back to initials, a missing bio hides its paragraph, and a missing link drops only that link. Those outcomes are acceptable; a broken layout is not.
+
+Verify that links use the accepted schemes so an entry does not silently lose its address, and that pasted text appears literally instead of turning into page markup.
+
+If the edit touched only values in the content file, nothing else needs to move. If it introduced a new field or a new interface key, treat it as a change to the data contract and update the typed model and the seed together.
+
+Run the build and let it pass before uploading; a failure there is the typed contract catching a mismatch that would otherwise reach the live site.
+
+When the compiled JavaScript has changed, refresh the cache-busting identifiers on the script tags so returning visitors never combine a fresh bundle with a stale one.
+
+Keep an eye on wording changes as well: a reworded interface string also reaches screen-reader users through the same keys, so it deserves the same review as visible copy.
