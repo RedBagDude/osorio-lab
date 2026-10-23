@@ -188,3 +188,11 @@ Run the build and let it pass before uploading; a failure there is the typed con
 When the compiled JavaScript has changed, refresh the cache-busting identifiers on the script tags so returning visitors never combine a fresh bundle with a stale one.
 
 Keep an eye on wording changes as well: a reworded interface string also reaches screen-reader users through the same keys, so it deserves the same review as visible copy.
+
+## Fallback Behavior and Failure Modes
+The site has two safety nets that behave differently, and knowing which one is acting saves time when something looks wrong.
+At runtime the page requests the editable content file without caching; if that request fails, rendering continues from the seed compiled into the JavaScript, so the page stays presentable but may not reflect the latest content edits.
+That fallback keeps the page alive; it does not replace the need for a successful build and a correct deploy.
+At build time the typed contract is stricter: a mistyped or structurally mismatched entry fails the build rather than reaching production, and the fix is to correct the content or move the interfaces and seed together.
+Optional fields are the third kind of handling: a missing photo, bio, social link or publication link degrades to initials, a hidden paragraph or an absent link instead of breaking the layout.
+When diagnosing an unexpected page, first decide whether the cause is a failed content fetch, a build-time contract mismatch or an intentionally omitted optional field, because each has a different fix and only the last may need no action at all.
