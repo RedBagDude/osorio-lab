@@ -196,3 +196,17 @@ That fallback keeps the page alive; it does not replace the need for a successfu
 At build time the typed contract is stricter: a mistyped or structurally mismatched entry fails the build rather than reaching production, and the fix is to correct the content or move the interfaces and seed together.
 Optional fields are the third kind of handling: a missing photo, bio, social link or publication link degrades to initials, a hidden paragraph or an absent link instead of breaking the layout.
 When diagnosing an unexpected page, first decide whether the cause is a failed content fetch, a build-time contract mismatch or an intentionally omitted optional field, because each has a different fix and only the last may need no action at all.
+
+## Asset Refresh and Caching Cues
+
+The site mixes two caching behaviors, and keeping them straight avoids the familiar “I updated it but nobody sees it” confusion.
+
+Content itself is requested at runtime without caching, so a JSON edit normally appears on the next page load with no extra step; if it does not, the likelier cause is a failed fetch falling back to the compiled seed rather than a stale browser cache.
+
+The compiled JavaScript is the opposite case: browsers hold on to it, so whenever a change to the TypeScript sources alters the shipping bundle, the identifiers on the script tags in the single HTML page should be refreshed at the same time.
+
+Images sit in between — they are served as optimized WebP with JPG fallbacks, loaded lazily, and a failed request is retried with a cache-busting parameter before a team member without a usable photo falls back to an initials avatar.
+
+Because deployment stays a plain file upload, the practical rule is to upload the full served surface rather than selected files, and to treat refreshed script identifiers as part of shipping new JavaScript rather than as an optional cleanup.
+
+The one external runtime dependency is not part of that upload, so its availability is a separate concern from anything the owner edits in the content file.
