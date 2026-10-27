@@ -210,3 +210,17 @@ Images sit in between — they are served as optimized WebP with JPG fallbacks, 
 Because deployment stays a plain file upload, the practical rule is to upload the full served surface rather than selected files, and to treat refreshed script identifiers as part of shipping new JavaScript rather than as an optional cleanup.
 
 The one external runtime dependency is not part of that upload, so its availability is a separate concern from anything the owner edits in the content file.
+
+## Structured Data and Search Visibility
+
+The machine-readable description of this site is generated from the same content that feeds the visible page, so search engines, social previews and AI-oriented crawlers read the laboratory's own wording rather than a separate description kept in parallel.
+
+Publication markup is assembled at runtime: every entry in the content file becomes a structured record typed as an article, a chapter or a patent, which means a corrected title or author list improves the visible entry and its machine-readable counterpart at the same time.
+
+Beside those records sit the fixed entities describing the organization, the person behind it and the website itself, together with the preview cards used when a link is shared elsewhere.
+
+The crawler-facing files — a sitemap, a robots file and a summary aimed at AI search engines — belong to this same layer and are untouched by routine content edits.
+
+Because this metadata is produced from the content at load time, the only way it drifts is through a failed content fetch, in which case the compiled seed supplies older records; a stale-looking preview after an edit is a fetch or caching question rather than a metadata one.
+
+In practice the layer needs no dedicated maintenance: keep the entries in the content file accurate and complete, and the derived description follows on its own.
