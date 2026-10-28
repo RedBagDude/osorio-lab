@@ -224,3 +224,15 @@ The crawler-facing files — a sitemap, a robots file and a summary aimed at AI 
 Because this metadata is produced from the content at load time, the only way it drifts is through a failed content fetch, in which case the compiled seed supplies older records; a stale-looking preview after an edit is a fetch or caching question rather than a metadata one.
 
 In practice the layer needs no dedicated maintenance: keep the entries in the content file accurate and complete, and the derived description follows on its own.
+
+## What the Build Does and Does Not Check
+
+The build has a narrow job: it translates the TypeScript sources into the JavaScript the browser loads and checks the content file against the typed contract declared alongside the seed. A misspelled field, a value of the wrong type or a structural mismatch is caught there, before anything is uploaded.
+
+That check is about shape, not substance. The build cannot tell whether a publication title is correct, whether an author list is complete, whether a link points where it should or whether a photo is suitable; those remain editorial responsibilities.
+
+It also says nothing about how the page will look. Because content is fetched at runtime, a record that passes the build can still render awkwardly if its values are incomplete, which is why a local preview of the affected entry belongs in the review.
+
+Optional fields are deliberately outside the failure path: a missing photo, bio, social link or publication link is accepted and degraded at render time rather than rejected.
+
+Finally, the build does not refresh cache-busting identifiers or decide what gets uploaded. Passing it is the starting point for shipping, not the whole of it.
