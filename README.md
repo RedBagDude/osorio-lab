@@ -236,3 +236,14 @@ It also says nothing about how the page will look. Because content is fetched at
 Optional fields are deliberately outside the failure path: a missing photo, bio, social link or publication link is accepted and degraded at render time rather than rejected.
 
 Finally, the build does not refresh cache-busting identifiers or decide what gets uploaded. Passing it is the starting point for shipping, not the whole of it.
+
+## Recognizing a Structural Content Change
+
+A routine edit changes values already present in the content file: a publication title, a team member's bio, an alumni name, a research topic, a teaching period or a media mention.
+A structural change alters the shape of the data instead, such as adding a new field or a new interface key that the existing JSON did not previously carry.
+That distinction matters because the typed contract, the seed compiled into the JavaScript and the runtime fallback must move together when the shape changes; updating only one of them produces inconsistent behavior rather than a clear failure.
+Treat a new interface string the same way: overrides for existing keys are content edits, while introducing a new key belongs with the code.
+Optional fields remain the safest path for incomplete records, since a missing photo, bio, social link or publication link degrades at render time instead of requiring new structure.
+After any edit, a passing build confirms that the content still matches the declared contract, but it does not confirm that the values are editorially correct or that the page will look right.
+For that reason, review the affected entry in a local preview before uploading, and refresh the cache-busting identifiers whenever the compiled JavaScript changes.
+When in doubt, prefer editing an existing value over adding a field, and reserve structural work for cases where the available data truly cannot fit the current model.
