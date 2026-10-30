@@ -247,3 +247,17 @@ Optional fields remain the safest path for incomplete records, since a missing p
 After any edit, a passing build confirms that the content still matches the declared contract, but it does not confirm that the values are editorially correct or that the page will look right.
 For that reason, review the affected entry in a local preview before uploading, and refresh the cache-busting identifiers whenever the compiled JavaScript changes.
 When in doubt, prefer editing an existing value over adding a field, and reserve structural work for cases where the available data truly cannot fit the current model.
+
+## Generated Output and Manual Touchpoints
+
+Not every file in the repository is meant to be edited by hand, and mixing the two kinds is the most common way an otherwise simple update goes wrong.
+
+The browser loads the JavaScript compiled into the assets directory; the TypeScript sources it is built from live alongside it, and any hand edit to the compiled output is overwritten the next time the build runs. Treat the compiled files as the shipping artifact and the TypeScript as the authoring layer the server never needs.
+
+The seed compiled from the data source belongs to that same generated surface, yet it also defines the typed content contract, so a structural change to the content file must keep the two in step rather than touching only one of them.
+
+The single HTML page is hand-written and does need attention, but only in one narrow respect: the cache-busting identifiers on its script tags are not refreshed by the build, so shipping a changed bundle means updating them deliberately.
+
+Deployment stays a plain file upload, and the folders and configuration used only for building are not part of what the static target serves, so they stay out of the upload.
+
+Everything else the owner touches belongs in the content file, which is why routine work never requires opening a generated file at all.
