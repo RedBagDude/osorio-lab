@@ -261,3 +261,19 @@ The single HTML page is hand-written and does need attention, but only in one na
 Deployment stays a plain file upload, and the folders and configuration used only for building are not part of what the static target serves, so they stay out of the upload.
 
 Everything else the owner touches belongs in the content file, which is why routine work never requires opening a generated file at all.
+
+## Glossary of Recurring Terms
+
+A handful of terms recur throughout this document, and settling them once makes the rest of the material easier to read without hunting back through earlier sections.
+
+The content file is the editable JSON that drives every section of the page; it is the one surface routine updates are expected to touch. The seed is the copy of that same content compiled into the JavaScript, and it plays a double role: the fallback used when the runtime fetch fails, and the source of the typed contract.
+
+The typed contract is the set of interfaces the content is checked against at build time, which is precisely why a mistyped or mismatched entry fails the build instead of reaching the live page.
+
+The build is the translation of the TypeScript sources into the JavaScript the browser loads, together with that contract check — nothing more, and nothing less.
+
+Cache-busting identifiers are the version markers on the script tags of the single HTML page; the build does not refresh them, so shipping a changed bundle means updating them deliberately.
+
+Optional fields are the ones that may be omitted safely, because a missing photo, bio, social link or publication link degrades at render time rather than breaking the layout.
+
+Finally, fallback describes what happens when the content request fails: rendering continues from the compiled seed, so the page stays presentable even though it may lag behind the most recent edits.
