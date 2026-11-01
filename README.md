@@ -277,3 +277,19 @@ Cache-busting identifiers are the version markers on the script tags of the sing
 Optional fields are the ones that may be omitted safely, because a missing photo, bio, social link or publication link degrades at render time rather than breaking the layout.
 
 Finally, fallback describes what happens when the content request fails: rendering continues from the compiled seed, so the page stays presentable even though it may lag behind the most recent edits.
+
+## Handling Partial or Incomplete Records
+
+Optional fields are the intended way to publish records that are not yet complete: a team member can go live without a photo, bio or social link, and a publication can appear without its link, because each omission degrades at render time rather than breaking the layout.
+
+When information is missing, leave the optional field out instead of forcing a value into a field whose shape does not fit; adding structure is the one case that requires moving the typed contract and the seed together.
+
+A missing photo resolves to an initials avatar, a missing bio hides its paragraph, and a missing link removes only that link, so a partial record remains presentable and can be reviewed in a local preview like any other content change.
+
+Because these fallbacks belong to the rendering layer, there is no setting in the content file that relaxes them; if an entry looks incomplete in the browser, check the value being supplied rather than changing the code.
+
+Treat the omissions deliberately: confirm that each missing optional field is intentional, that accepted link schemes are used where a link is supplied, and that the affected entry renders correctly before uploading.
+
+If the build fails, the typed contract has caught a mismatch between the content and the declared model; correct the content or update the interfaces and seed together, then run the build again before deploying.
+
+This keeps incomplete records safe to publish without expanding the editable surface or introducing new fields for information that may arrive later.
