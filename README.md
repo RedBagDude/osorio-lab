@@ -293,3 +293,19 @@ Treat the omissions deliberately: confirm that each missing optional field is in
 If the build fails, the typed contract has caught a mismatch between the content and the declared model; correct the content or update the interfaces and seed together, then run the build again before deploying.
 
 This keeps incomplete records safe to publish without expanding the editable surface or introducing new fields for information that may arrive later.
+
+## How to Use This Document
+
+The material here is written for three readers who rarely need the same passages: laboratory staff who maintain what the page says, the developer who maintains how it renders, and whoever uploads the finished site.
+
+If you only ever change values in the content file — a publication title, a bio, an alumni name, a research topic, a teaching period, a media mention or an interface string — the maintenance, ownership and partial-record sections are enough, together with the pre-publish checklist that closes the loop.
+
+If your change instead introduces a new field or a new interface key, start from the sections on structural changes and generated output, because the typed contract, the seed and the runtime fallback have to move together.
+
+When the page itself misbehaves rather than the content, the fallback and caching sections separate a failed content fetch from a stale bundle from a deliberately omitted optional field, each with its own fix.
+
+Whoever ships should read the packaging notes: a passing build is the starting point rather than the whole of the process, and the identifiers on the script tags are not refreshed automatically.
+
+The glossary exists for the terms that recur across all of these, and the search-visibility section explains why corrections made in the content file also reach the machine-readable description of the site.
+
+Read the section matching your role first, and treat the rest as reference to consult when a change crosses the boundary between content, code and deployment.
