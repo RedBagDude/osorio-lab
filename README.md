@@ -309,3 +309,17 @@ Whoever ships should read the packaging notes: a passing build is the starting p
 The glossary exists for the terms that recur across all of these, and the search-visibility section explains why corrections made in the content file also reach the machine-readable description of the site.
 
 Read the section matching your role first, and treat the rest as reference to consult when a change crosses the boundary between content, code and deployment.
+
+## Accessibility Considerations for Content Editors
+
+Accessibility behaviour on this site lives in the rendering layer, but several of its outcomes depend on the values supplied in the content file, so an editor benefits from knowing where the two meet.
+
+Motion is the clearest case: every animation is short-circuited when the visitor's system asks for reduced motion, and the ambient loops are additionally gated on narrow viewports, so no content decision is needed to keep those effects from becoming a burden.
+
+Interface strings reach further than the visible page, because the same keys also supply ARIA labels; a reworded or translated label therefore changes what screen-reader users hear, and a string that reads well on screen but poorly aloud deserves the same revision as visible copy.
+
+The team modal traps focus and can be dismissed from the keyboard, which means a bio is consumed as a self-contained passage once opened — wording that leans on the surrounding page for context will sound incomplete there.
+
+Images carry their own chain of fallbacks: a failed request is retried, and a member without a usable photo still appears through an avatar generated from their initials, so a partial profile remains presentable and usable.
+
+None of this asks for settings in the content file or edits to the code; it follows from supplying accurate text and reasonably complete records, then reviewing the affected entry in a local preview before uploading.
