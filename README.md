@@ -323,3 +323,19 @@ The team modal traps focus and can be dismissed from the keyboard, which means a
 Images carry their own chain of fallbacks: a failed request is retried, and a member without a usable photo still appears through an avatar generated from their initials, so a partial profile remains presentable and usable.
 
 None of this asks for settings in the content file or edits to the code; it follows from supplying accurate text and reasonably complete records, then reviewing the affected entry in a local preview before uploading.
+
+## Working with Team Profiles and Portraits
+
+Each team entry combines a portrait, a short bio and optional social links, all maintained in the same content file as the rest of the roster. The images the site ships are served as WebP with JPG fallbacks and loaded lazily, so a profile does not block the page while its photo is fetched.
+
+A failed image request is retried with a cache-busting parameter before anything else happens; only if that also fails does the entry fall back to an avatar generated from the member's initials. A profile can therefore go live before its portrait is ready, without leaving a broken frame in the grid.
+
+The bio is consumed as a self-contained passage once the profile view opens, so wording that leans on the surrounding page for context will read as incomplete there; that view also handles focus and keyboard dismissal, which is another reason the paragraph deserves a read-through of its own.
+
+Social links follow the same defensive rules as every other address on the site: ordinary web, email and telephone forms are accepted, and anything else is dropped when the entry renders while the rest of the profile still appears normally.
+
+Text is escaped rather than interpreted, so pasted formatting inside a bio shows up literally instead of turning into page markup.
+
+Because the build checks only the shape of the data and says nothing about how a record looks, none of these outcomes can be confirmed without opening the affected profile in a local preview before uploading.
+
+When a portrait or a paragraph seems missing on the live page, check the value being supplied in the content file first, and only then suspect the rendering layer.
